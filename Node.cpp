@@ -6,6 +6,7 @@
 
 node::node(int cont) {
     data = cont;
+    next = nullptr;
 }
 void node::nuevo(){
 

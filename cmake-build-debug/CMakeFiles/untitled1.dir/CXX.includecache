@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/malavassi/Escritorio/MemoryManagment/Collector.cpp
+Collector.h
+/home/malavassi/Escritorio/MemoryManagment/Collector.h
+
+/home/malavassi/Escritorio/MemoryManagment/Collector.h
+
+/home/malavassi/Escritorio/MemoryManagment/List.cpp
+iostream
+-
+List.h
+/home/malavassi/Escritorio/MemoryManagment/List.h
+
+/home/malavassi/Escritorio/MemoryManagment/List.h
+Node.h
+/home/malavassi/Escritorio/MemoryManagment/Node.h
+
+/home/malavassi/Escritorio/MemoryManagment/Node.cpp
+Node.h
+/home/malavassi/Escritorio/MemoryManagment/Node.h
+
+/home/malavassi/Escritorio/MemoryManagment/Node.h
+
+/home/malavassi/Escritorio/MemoryManagment/main.cpp
+iostream
+-
+

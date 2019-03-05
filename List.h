@@ -12,6 +12,7 @@ class List {
 public:
 List();
 void insert_inicio(int a);
+void visualizar();
 
 node *first;
 };
