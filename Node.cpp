@@ -4,8 +4,7 @@
 
 #include "Node.h"
 
-node::node(node *sig, int cont) {
-    *next = *sig;
+node::node(int cont) {
     data = cont;
 }
 void node::nuevo(){
@@ -14,4 +13,8 @@ void node::nuevo(){
 
 void node::eliminar() {
 
+}
+
+void node::set_next(node a) {
+    this->next = &a;
 }

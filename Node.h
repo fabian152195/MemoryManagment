@@ -8,9 +8,10 @@
 
 class node {
 public:
-    node(node *sig, int cont);
+    node(int cont);
     void nuevo();
     void eliminar();
+    void set_next(node a);
     node *next;
     int data;
 

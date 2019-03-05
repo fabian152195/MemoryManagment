@@ -11,7 +11,7 @@
 class List {
 public:
 List();
-void insert_inicio();
+void insert_inicio(int a);
 
 node *first;
 };
