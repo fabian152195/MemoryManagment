@@ -1,13 +1,19 @@
 //
-// Created by malavassi on 04/03/19.
+// Created by malavassi on 05/03/19.
 //
 
 #ifndef UNTITLED1_LIST_H
 #define UNTITLED1_LIST_H
 
 
-class list {
+#include "Node.h"
 
+class List {
+public:
+List();
+void insert_inicio();
+
+node *first;
 };
 
 

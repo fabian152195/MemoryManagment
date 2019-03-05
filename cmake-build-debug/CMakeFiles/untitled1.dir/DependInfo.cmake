@@ -5,9 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/malavassi/Escritorio/MemoryManagment/Collector.cpp" "/home/malavassi/Escritorio/MemoryManagment/cmake-build-debug/CMakeFiles/untitled1.dir/Collector.cpp.o"
-  "/home/malavassi/Escritorio/MemoryManagment/list.cpp" "/home/malavassi/Escritorio/MemoryManagment/cmake-build-debug/CMakeFiles/untitled1.dir/list.cpp.o"
+  "/home/malavassi/Escritorio/MemoryManagment/List.cpp" "/home/malavassi/Escritorio/MemoryManagment/cmake-build-debug/CMakeFiles/untitled1.dir/List.cpp.o"
+  "/home/malavassi/Escritorio/MemoryManagment/Node.cpp" "/home/malavassi/Escritorio/MemoryManagment/cmake-build-debug/CMakeFiles/untitled1.dir/Node.cpp.o"
   "/home/malavassi/Escritorio/MemoryManagment/main.cpp" "/home/malavassi/Escritorio/MemoryManagment/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.o"
-  "/home/malavassi/Escritorio/MemoryManagment/node.cpp" "/home/malavassi/Escritorio/MemoryManagment/cmake-build-debug/CMakeFiles/untitled1.dir/node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

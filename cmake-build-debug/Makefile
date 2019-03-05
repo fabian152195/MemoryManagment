@@ -150,32 +150,59 @@ Collector.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Collector.cpp.s
 .PHONY : Collector.cpp.s
 
-list.o: list.cpp.o
+List.o: List.cpp.o
 
-.PHONY : list.o
+.PHONY : List.o
 
 # target to build an object file
-list.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/list.cpp.o
-.PHONY : list.cpp.o
+List.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/List.cpp.o
+.PHONY : List.cpp.o
 
-list.i: list.cpp.i
+List.i: List.cpp.i
 
-.PHONY : list.i
+.PHONY : List.i
 
 # target to preprocess a source file
-list.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/list.cpp.i
-.PHONY : list.cpp.i
+List.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/List.cpp.i
+.PHONY : List.cpp.i
 
-list.s: list.cpp.s
+List.s: List.cpp.s
 
-.PHONY : list.s
+.PHONY : List.s
 
 # target to generate assembly for a file
-list.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/list.cpp.s
-.PHONY : list.cpp.s
+List.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/List.cpp.s
+.PHONY : List.cpp.s
+
+Node.o: Node.cpp.o
+
+.PHONY : Node.o
+
+# target to build an object file
+Node.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Node.cpp.o
+.PHONY : Node.cpp.o
+
+Node.i: Node.cpp.i
+
+.PHONY : Node.i
+
+# target to preprocess a source file
+Node.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Node.cpp.i
+.PHONY : Node.cpp.i
+
+Node.s: Node.cpp.s
+
+.PHONY : Node.s
+
+# target to generate assembly for a file
+Node.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/Node.cpp.s
+.PHONY : Node.cpp.s
 
 main.o: main.cpp.o
 
@@ -204,33 +231,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-node.o: node.cpp.o
-
-.PHONY : node.o
-
-# target to build an object file
-node.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/node.cpp.o
-.PHONY : node.cpp.o
-
-node.i: node.cpp.i
-
-.PHONY : node.i
-
-# target to preprocess a source file
-node.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/node.cpp.i
-.PHONY : node.cpp.i
-
-node.s: node.cpp.s
-
-.PHONY : node.s
-
-# target to generate assembly for a file
-node.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/node.cpp.s
-.PHONY : node.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,15 +243,15 @@ help:
 	@echo "... Collector.o"
 	@echo "... Collector.i"
 	@echo "... Collector.s"
-	@echo "... list.o"
-	@echo "... list.i"
-	@echo "... list.s"
+	@echo "... List.o"
+	@echo "... List.i"
+	@echo "... List.s"
+	@echo "... Node.o"
+	@echo "... Node.i"
+	@echo "... Node.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... node.o"
-	@echo "... node.i"
-	@echo "... node.s"
 .PHONY : help
 
 
