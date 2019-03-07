@@ -3,3 +3,8 @@
 //
 
 #include "Collector.h"
+
+collector::collector() {
+
+
+}

@@ -5,16 +5,21 @@
 #ifndef UNTITLED1_LIST_H
 #define UNTITLED1_LIST_H
 
-
 #include "Node.h"
 
 class List {
 public:
-List();
-void insert_inicio(int a);
-void visualizar();
+    List();
+    ~List();
+
+    void insert_inicio(int dato);
+    void visualizar();
+    const* Nodo Primero () const;
+
+private:
 
 node *first;
+
 };
 
 
