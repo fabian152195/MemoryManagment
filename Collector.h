@@ -13,9 +13,11 @@ public:
         collector();
         ~ collector();
 
-    void Limpiar ();
-    void* NuevoNodo ();
-    void ReciclarNodo (void* nodo);
+    void Limpiar (); //
+    node* NuevoNodo (); // RETORNA PUNTERO PARA RECICLAR
+    void ReciclarNodo (node* nodo); //RECIBE PUNTERO PARA ALMACENAR EN LISTA
+    void set_first(node *nodo);
+    node* get_first();
 
 private:
     Nodo* _p;
