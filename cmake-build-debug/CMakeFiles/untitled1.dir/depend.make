@@ -3,13 +3,15 @@
 
 CMakeFiles/untitled1.dir/Collector.cpp.o: ../Collector.cpp
 CMakeFiles/untitled1.dir/Collector.cpp.o: ../Collector.h
+CMakeFiles/untitled1.dir/Collector.cpp.o: ../List.h
+CMakeFiles/untitled1.dir/Collector.cpp.o: ../node.h
 
 CMakeFiles/untitled1.dir/List.cpp.o: ../List.cpp
 CMakeFiles/untitled1.dir/List.cpp.o: ../List.h
-CMakeFiles/untitled1.dir/List.cpp.o: ../Node.h
-
-CMakeFiles/untitled1.dir/Node.cpp.o: ../Node.cpp
-CMakeFiles/untitled1.dir/Node.cpp.o: ../Node.h
+CMakeFiles/untitled1.dir/List.cpp.o: ../node.h
 
 CMakeFiles/untitled1.dir/main.cpp.o: ../main.cpp
+
+CMakeFiles/untitled1.dir/node.cpp.o: ../node.cpp
+CMakeFiles/untitled1.dir/node.cpp.o: ../node.h
 

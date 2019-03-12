@@ -96,13 +96,13 @@
 		<Unit filename="/home/malavassi/Escritorio/MemoryManagment/List.h">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/home/malavassi/Escritorio/MemoryManagment/Node.cpp">
-			<Option target="untitled1"/>
-		</Unit>
-		<Unit filename="/home/malavassi/Escritorio/MemoryManagment/Node.h">
-			<Option target="untitled1"/>
-		</Unit>
 		<Unit filename="/home/malavassi/Escritorio/MemoryManagment/main.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/MemoryManagment/node.cpp">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/MemoryManagment/node.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/malavassi/Escritorio/MemoryManagment/CMakeLists.txt">

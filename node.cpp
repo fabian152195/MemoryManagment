@@ -18,7 +18,7 @@ node::node() {
 void* node::operator new(size_t size) {
     std::cout<< "Overloading new operator with size: " << size << std::endl;
 
-    void* espacioMemoria = recolector.NuevoNodo();
+/**   void* espacioMemoria = recolector.NuevoNodo();
 
     if (espacioMemoria == nullptr){
         node * p;
@@ -26,16 +26,17 @@ void* node::operator new(size_t size) {
         return p;
     } else {
         return espacioMemoria;
-    }
+    }*/
 }
 
 void node::operator delete(void * p)
 {
-    std::cout<< "Overloading delete operator " << std::endl;
+   /** std::cout<< "Overloading delete operator " << std::endl;
 
     recolector.ReciclarNodo(p);
 
     free(p);
+    */
 }
 void node::nuevo(){
 

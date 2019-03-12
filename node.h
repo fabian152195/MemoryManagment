@@ -8,11 +8,9 @@
 
 #include<iostream>
 #include<stdlib.h>
-#include "Collector.h"
+
 
 class node {
-
-    friend class Recolector;
 
 public:
     void* operator new (size_t size);
@@ -36,7 +34,6 @@ public:
 private:
     node *next;
     int data;
-    static collector recolector;
 };
 
 

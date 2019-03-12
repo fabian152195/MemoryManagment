@@ -70,18 +70,18 @@ CMakeFiles/untitled1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/MemoryManagment/main.cpp -o CMakeFiles/untitled1.dir/main.cpp.s
 
-CMakeFiles/untitled1.dir/Node.cpp.o: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/MemoryManagment/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled1.dir/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled1.dir/Node.cpp.o -c /home/malavassi/Escritorio/MemoryManagment/Node.cpp
+CMakeFiles/untitled1.dir/node.cpp.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/node.cpp.o: ../node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/MemoryManagment/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled1.dir/node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled1.dir/node.cpp.o -c /home/malavassi/Escritorio/MemoryManagment/node.cpp
 
-CMakeFiles/untitled1.dir/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/MemoryManagment/Node.cpp > CMakeFiles/untitled1.dir/Node.cpp.i
+CMakeFiles/untitled1.dir/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled1.dir/node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/MemoryManagment/node.cpp > CMakeFiles/untitled1.dir/node.cpp.i
 
-CMakeFiles/untitled1.dir/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/MemoryManagment/Node.cpp -o CMakeFiles/untitled1.dir/Node.cpp.s
+CMakeFiles/untitled1.dir/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled1.dir/node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/MemoryManagment/node.cpp -o CMakeFiles/untitled1.dir/node.cpp.s
 
 CMakeFiles/untitled1.dir/Collector.cpp.o: CMakeFiles/untitled1.dir/flags.make
 CMakeFiles/untitled1.dir/Collector.cpp.o: ../Collector.cpp
@@ -112,7 +112,7 @@ CMakeFiles/untitled1.dir/List.cpp.s: cmake_force
 # Object files for target untitled1
 untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/main.cpp.o" \
-"CMakeFiles/untitled1.dir/Node.cpp.o" \
+"CMakeFiles/untitled1.dir/node.cpp.o" \
 "CMakeFiles/untitled1.dir/Collector.cpp.o" \
 "CMakeFiles/untitled1.dir/List.cpp.o"
 
@@ -120,7 +120,7 @@ untitled1_OBJECTS = \
 untitled1_EXTERNAL_OBJECTS =
 
 untitled1: CMakeFiles/untitled1.dir/main.cpp.o
-untitled1: CMakeFiles/untitled1.dir/Node.cpp.o
+untitled1: CMakeFiles/untitled1.dir/node.cpp.o
 untitled1: CMakeFiles/untitled1.dir/Collector.cpp.o
 untitled1: CMakeFiles/untitled1.dir/List.cpp.o
 untitled1: CMakeFiles/untitled1.dir/build.make
