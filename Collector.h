@@ -6,6 +6,7 @@
 #define UNTITLED1_COLLECTOR_H
 
 #include "List.h";
+#include "node.h";
 
 class collector {
 
@@ -14,13 +15,13 @@ public:
         ~ collector();
 
     void Limpiar (); //
-    node* NuevoNodo (); // RETORNA PUNTERO PARA RECICLAR
-    void ReciclarNodo (node* nodo); //RECIBE PUNTERO PARA ALMACENAR EN LISTA
-    void set_first(node *nodo);
-    node* get_first();
+    void* NuevoNodo (); // RETORNA PUNTERO PARA RECICLAR
+    void ReciclarNodo (void* nodo); //RECIBE PUNTERO PARA ALMACENAR EN LISTA
+    void set_first(void *nodo);
+    void* get_first();
 
 private:
-    Nodo* _p;
+    node* _p;
 
 };
 

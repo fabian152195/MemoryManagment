@@ -5,7 +5,7 @@
 #ifndef UNTITLED1_LIST_H
 #define UNTITLED1_LIST_H
 
-#include "Node.h"
+#include "node.h"
 
 class List {
 public:
@@ -13,8 +13,8 @@ public:
     ~List();
 
     void insert_inicio(int dato);
+    void eliminar_nodofinal();
     void visualizar();
-    const* Nodo Primero () const;
 
 private:
 

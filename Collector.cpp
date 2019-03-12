@@ -4,21 +4,21 @@
 
 #include "Collector.h"
 
+
 collector::collector() {
 
 
 }
-node* collector::NuevoNodo() { // RETORNA PUNTERO PARA RECICLAR
+void* collector::NuevoNodo() { // RETORNA PUNTERO PARA RECICLAR
     if(this->_p!= nullptr){
-        node* aux = new node();
-        *aux = *this->_p;
-        this->set_first(aux);
-        return this->_p;
+        node* aux = this->_p;
+        this->set_first(_p->get_Siguiente());
+        return aux;
     }else{
         return nullptr;
     }
 }
-void collector::ReciclarNodo(node *nodo) { //RECIBE PUNTERO PARA ALMACENAR EN LISTA
+void collector::ReciclarNodo(node* nodo) { //RECIBE PUNTERO PARA ALMACENAR EN LISTA
     nodo->set_next(this->get_first());
     this->set_first(nodo);
 }

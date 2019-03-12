@@ -9,6 +9,8 @@ int main() {
     list.insert_inicio(3);
     list.insert_inicio(4);
     list.visualizar();
+    //list.eliminar_nodofinal();
+    //list.visualizar();
 
 
 
