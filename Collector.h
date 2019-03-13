@@ -6,24 +6,33 @@
 #define UNTITLED1_COLLECTOR_H
 
 #include "List.h";
+#include "node.h";
 
-class collector {
+class Collector {
+
+private:
+    node* _p;
+    Collector();
+    static Collector* unique_instance;
 
 public:
-        collector();
-        ~ collector();
-
+    ~ Collector();
     void Limpiar (); //
-    node* NuevoNodo (); // RETORNA PUNTERO PARA RECICLAR
+    void* NuevoNodo (); // RETORNA PUNTERO PARA RECICLAR
     void ReciclarNodo (node* nodo); //RECIBE PUNTERO PARA ALMACENAR EN LISTA
     void set_first(node *nodo);
     node* get_first();
+    void visualizar();
+    static Collector *getInstance(){
+        if(unique_instance == NULL){
+            unique_instance = new Collector();
+        }
+        return unique_instance;
+    };
 
-private:
-    Nodo* _p;
+
 
 };
-
 
 
 #endif //UNTITLED1_COLLECTOR_H
