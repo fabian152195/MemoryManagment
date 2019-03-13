@@ -15,8 +15,8 @@ List::~List(){
 
 }
 /**
- *
- * @param a
+ * Inserta en la lista un nodo que almacena un integer dado
+ * @param a valor entero que se desea que almacene el nuevo nodo que se inserta
  */
 void List::insert_inicio(int a) {
     size_t size = 2;
@@ -30,7 +30,7 @@ void List::insert_inicio(int a) {
     }
 }
 /**
- *
+ * Permite visualizar el contenido de la lista
  */
 void List::visualizar() {
     node *aux = first;
@@ -47,7 +47,7 @@ void List::visualizar() {
 }
 
 /**
- *
+ * Elimina el ultimo elemento de la lista
  */
 void List::eliminar_nodofinal() {
 
@@ -59,14 +59,14 @@ void List::eliminar_nodofinal() {
     else{
         if(aux->get_Siguiente() == nullptr){
             delete this->first;
-            this->first= nullptr; //problem!!!
+            this->first= nullptr;
         }
         else{
             while(aux->get_Siguiente()->get_Siguiente()!= nullptr){
                 aux = aux->get_Siguiente();
             }
             delete aux->get_Siguiente();
-            aux->set_Siguiente(nullptr); //next -> null pointer
+            aux->set_Siguiente(nullptr);
         }
     }
 }

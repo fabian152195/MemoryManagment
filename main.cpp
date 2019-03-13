@@ -16,11 +16,6 @@ int main() {
     list.insert_inicio(5);
     list.insert_inicio(4);
     list.visualizar();
-    //list.eliminar_nodofinal();
-    //list.visualizar();
-
-
-
 
     return 0;
 }

@@ -11,7 +11,7 @@
 class Collector {
 
 private:
-    node* _p;
+    node* first;
     Collector();
     static Collector* unique_instance;
 

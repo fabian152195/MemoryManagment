@@ -10,9 +10,9 @@ using namespace std;
 node::node() {
 }
 /**
- *
- * @param size
- * @return
+ * Operador new sobrecargado que permite administrar la memoria mediante los procesos de reciclaje de punteros del Collector
+ * @param size tamano del espacio que se reservara en memoria
+ * @return puntero a la direccion de memoria donde se colocara nuevo nodo
  */
 void* node::operator new(size_t size) {
     void* espacioMemoria;
@@ -30,16 +30,13 @@ void* node::operator new(size_t size) {
     }
 }
 /**
- *
- * @param p
+ * Elimina nodo de la lista y envia el puntero al Collector para su reciclaje
+ * @param p puntero por reciclar
  */
 void node::operator delete(void * p)
 {
-   // cout<< "Overloading delete operator " << endl;
-
     Collector::getInstance()->ReciclarNodo((node*) p);
     cout<< "\nNodo " << static_cast<void*>(p) << " eliminado de lista y agregado a Colector\n" << endl;
-
 }
 
 void node::set_Siguiente(node *a) {
