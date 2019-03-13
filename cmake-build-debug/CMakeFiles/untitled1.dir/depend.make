@@ -8,6 +8,7 @@ CMakeFiles/untitled1.dir/Collector.cpp.o: ../node.h
 
 CMakeFiles/untitled1.dir/List.cpp.o: ../List.cpp
 CMakeFiles/untitled1.dir/List.cpp.o: ../List.h
+CMakeFiles/untitled1.dir/List.cpp.o: ../node.h
 
 CMakeFiles/untitled1.dir/main.cpp.o: ../List.h
 CMakeFiles/untitled1.dir/main.cpp.o: ../main.cpp

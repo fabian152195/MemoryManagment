@@ -15,9 +15,10 @@ public:
 
     void Limpiar (); //
     void* NuevoNodo (); // RETORNA PUNTERO PARA RECICLAR
-    void ReciclarNodo (node* nodo); //RECIBE PUNTERO PARA ALMACENAR EN LISTA
+    void ReciclarNodo (void* nodo); //RECIBE PUNTERO PARA ALMACENAR EN LISTA
     void set_first(node *nodo);
     node* get_first();
+    static collector *getInstance();
 
 private:
     node* _p;

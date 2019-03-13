@@ -7,7 +7,13 @@
 
 collector::collector() {
 
+this->unique_instance = NULL;
+}
 
+collector* collector::getInstance() {
+    if(unique_instance == NULL){
+        unique_instance = new collector();
+    }
 }
 void* collector::NuevoNodo() { // RETORNA PUNTERO PARA RECICLAR
     if(this->_p!= nullptr){
@@ -18,7 +24,7 @@ void* collector::NuevoNodo() { // RETORNA PUNTERO PARA RECICLAR
         return nullptr;
     }
 }
-void collector::ReciclarNodo(node* nodo) { //RECIBE PUNTERO PARA ALMACENAR EN LISTA
+void collector::ReciclarNodo(void* nodo) { //RECIBE PUNTERO PARA ALMACENAR EN LISTA
     nodo->set_next(this->get_first());
     this->set_first(nodo);
 }

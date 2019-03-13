@@ -3,6 +3,8 @@
 //
 #include<iostream>
 #include "node.h"
+#include "Collector.h"
+using namespace std;
 
 
 node::node(int dato) {
@@ -16,9 +18,10 @@ node::node() {
 }
 
 void* node::operator new(size_t size) {
-    std::cout<< "Overloading new operator with size: " << size << std::endl;
+    cout<< "Overloading new operator with size: " << size << endl;
 
-/**   void* espacioMemoria = recolector.NuevoNodo();
+    void* espacioMemoria;
+    espacioMemoria = collector::getInstance()->NuevoNodo();
 
     if (espacioMemoria == nullptr){
         node * p;
@@ -26,17 +29,17 @@ void* node::operator new(size_t size) {
         return p;
     } else {
         return espacioMemoria;
-    }*/
+    }
 }
 
 void node::operator delete(void * p)
 {
-   /** std::cout<< "Overloading delete operator " << std::endl;
+    cout<< "Overloading delete operator " << endl;
 
-    recolector.ReciclarNodo(p);
+    collector::getInstance()->ReciclarNodo(p);
 
     free(p);
-    */
+
 }
 
 void node::set_next(node *a) {

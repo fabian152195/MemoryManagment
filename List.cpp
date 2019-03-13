@@ -11,6 +11,9 @@ List::List() {
 first = nullptr;
 
 }
+List::~List(){
+
+}
 void List::insert_inicio(int a) {
     size_t size = 2;
     node* nuevo_nodo;
