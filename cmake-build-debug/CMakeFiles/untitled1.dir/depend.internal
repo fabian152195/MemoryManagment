@@ -4,12 +4,18 @@
 CMakeFiles/untitled1.dir/Collector.cpp.o
  /home/malavassi/Escritorio/MemoryManagment/Collector.cpp
  /home/malavassi/Escritorio/MemoryManagment/Collector.h
+ /home/malavassi/Escritorio/MemoryManagment/List.h
+ /home/malavassi/Escritorio/MemoryManagment/node.h
 CMakeFiles/untitled1.dir/List.cpp.o
  /home/malavassi/Escritorio/MemoryManagment/List.cpp
  /home/malavassi/Escritorio/MemoryManagment/List.h
- /home/malavassi/Escritorio/MemoryManagment/Node.h
-CMakeFiles/untitled1.dir/Node.cpp.o
- /home/malavassi/Escritorio/MemoryManagment/Node.cpp
- /home/malavassi/Escritorio/MemoryManagment/Node.h
+ /home/malavassi/Escritorio/MemoryManagment/node.h
 CMakeFiles/untitled1.dir/main.cpp.o
+ /home/malavassi/Escritorio/MemoryManagment/List.h
  /home/malavassi/Escritorio/MemoryManagment/main.cpp
+ /home/malavassi/Escritorio/MemoryManagment/node.h
+CMakeFiles/untitled1.dir/node.cpp.o
+ /home/malavassi/Escritorio/MemoryManagment/Collector.h
+ /home/malavassi/Escritorio/MemoryManagment/List.h
+ /home/malavassi/Escritorio/MemoryManagment/node.cpp
+ /home/malavassi/Escritorio/MemoryManagment/node.h

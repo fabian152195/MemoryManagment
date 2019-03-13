@@ -14,17 +14,24 @@ first = nullptr;
 List::~List(){
 
 }
+/**
+ *
+ * @param a
+ */
 void List::insert_inicio(int a) {
     size_t size = 2;
     node *nuevo_nodo = new node();
-    nuevo_nodo -> set_dato(a);
+    nuevo_nodo->set_Dato(a);
     if (first == nullptr){
         first = nuevo_nodo;
     } else {
-        nuevo_nodo->set_next(first);
+        nuevo_nodo->set_Siguiente(first);
         first = nuevo_nodo;
     }
 }
+/**
+ *
+ */
 void List::visualizar() {
     node *aux = first;
     if (this->first == nullptr){
@@ -39,6 +46,9 @@ void List::visualizar() {
     }
 }
 
+/**
+ *
+ */
 void List::eliminar_nodofinal() {
 
     node *aux = this->first;
@@ -56,7 +66,7 @@ void List::eliminar_nodofinal() {
                 aux = aux->get_Siguiente();
             }
             delete aux->get_Siguiente();
-            aux->set_next(nullptr); //next -> null pointer
+            aux->set_Siguiente(nullptr); //next -> null pointer
         }
     }
 }

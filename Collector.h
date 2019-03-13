@@ -5,8 +5,8 @@
 #ifndef UNTITLED1_COLLECTOR_H
 #define UNTITLED1_COLLECTOR_H
 
-#include "List.h";
-#include "node.h";
+#include "List.h"
+#include "node.h"
 
 class Collector {
 
@@ -29,9 +29,6 @@ public:
         }
         return unique_instance;
     };
-
-
-
 };
 
 

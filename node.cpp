@@ -7,17 +7,14 @@
 using namespace std;
 
 
-node::node(int dato) {
-    data=dato;
-    next= nullptr;
-}
-
 node::node() {
 }
-
+/**
+ *
+ * @param size
+ * @return
+ */
 void* node::operator new(size_t size) {
-    //cout<< "Overloading new operator with default size: " << size << endl;
-
     void* espacioMemoria;
     Collector::getInstance()->visualizar();
     espacioMemoria = Collector::getInstance()->NuevoNodo();
@@ -32,7 +29,10 @@ void* node::operator new(size_t size) {
         return espacioMemoria;
     }
 }
-
+/**
+ *
+ * @param p
+ */
 void node::operator delete(void * p)
 {
    // cout<< "Overloading delete operator " << endl;
@@ -42,11 +42,11 @@ void node::operator delete(void * p)
 
 }
 
-void node::set_next(node *a) {
+void node::set_Siguiente(node *a) {
     this->next = a;
 }
 
-void node::set_dato(int dato) {
+void node::set_Dato(int dato) {
     this->data = dato;
 }
 

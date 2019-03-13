@@ -11,13 +11,11 @@ class List {
 public:
     List();
     ~List();
-
     void insert_inicio(int dato);
     void eliminar_nodofinal();
     void visualizar();
 
 private:
-
 node* first;
 
 };

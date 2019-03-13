@@ -15,19 +15,11 @@ class node {
 public:
     void* operator new (size_t size);
     void operator delete(void *pointer_memory);
-    node(int dato);
     node();
-
-    void set_next(node *a);
-    void set_dato (int dato);
-
+    void set_Siguiente(node *a);
+    void set_Dato(int dato);
     node* get_Siguiente ();
     int get_Dato ();
-
-
-
-
-    //static void Limpiar ();
 
 private:
     node *next;
