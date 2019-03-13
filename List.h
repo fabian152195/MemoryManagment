@@ -18,7 +18,7 @@ public:
 
 private:
 
-node *first;
+node* first;
 
 };
 

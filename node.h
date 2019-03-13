@@ -8,7 +8,7 @@
 
 #include<iostream>
 #include<stdlib.h>
-#include "Collector.h"
+
 
 class node {
 
