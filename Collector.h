@@ -11,17 +11,18 @@
 class collector {
 
 public:
-        collector();
         ~ collector();
 
     void Limpiar (); //
     void* NuevoNodo (); // RETORNA PUNTERO PARA RECICLAR
-    void ReciclarNodo (void* nodo); //RECIBE PUNTERO PARA ALMACENAR EN LISTA
-    void set_first(void *nodo);
-    void* get_first();
+    void ReciclarNodo (node* nodo); //RECIBE PUNTERO PARA ALMACENAR EN LISTA
+    void set_first(node *nodo);
+    node* get_first();
 
 private:
     node* _p;
+    collector();
+    static collector* unique_instance;
 
 };
 

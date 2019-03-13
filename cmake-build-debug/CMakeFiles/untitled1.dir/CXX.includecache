@@ -11,24 +11,26 @@ Collector.h
 /home/malavassi/Escritorio/MemoryManagment/Collector.h
 
 /home/malavassi/Escritorio/MemoryManagment/Collector.h
-
-/home/malavassi/Escritorio/MemoryManagment/List.cpp
-iostream
--
 List.h
 /home/malavassi/Escritorio/MemoryManagment/List.h
+node.h
+/home/malavassi/Escritorio/MemoryManagment/node.h
 
 /home/malavassi/Escritorio/MemoryManagment/List.h
 Node.h
 /home/malavassi/Escritorio/MemoryManagment/Node.h
 
-/home/malavassi/Escritorio/MemoryManagment/Node.cpp
-Node.h
-/home/malavassi/Escritorio/MemoryManagment/Node.h
-
-/home/malavassi/Escritorio/MemoryManagment/Node.h
-
-/home/malavassi/Escritorio/MemoryManagment/main.cpp
+/home/malavassi/Escritorio/MemoryManagment/node.cpp
 iostream
 -
+node.h
+/home/malavassi/Escritorio/MemoryManagment/node.h
+
+/home/malavassi/Escritorio/MemoryManagment/node.h
+iostream
+-
+stdlib.h
+-
+Collector.h
+/home/malavassi/Escritorio/MemoryManagment/Collector.h
 

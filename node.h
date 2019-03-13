@@ -12,15 +12,11 @@
 
 class node {
 
-    friend class Recolector;
-
 public:
     void* operator new (size_t size);
     void operator delete(void *pointer_memory);
     node(int dato);
     node();
-    void nuevo();
-    void eliminar();
 
     void set_next(node *a);
     void set_dato (int dato);
@@ -36,7 +32,6 @@ public:
 private:
     node *next;
     int data;
-    static collector recolector;
 };
 
 

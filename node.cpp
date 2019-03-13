@@ -37,13 +37,6 @@ void node::operator delete(void * p)
 
     free(p);
 }
-void node::nuevo(){
-
-}
-
-void node::eliminar() {
-
-}
 
 void node::set_next(node *a) {
     this->next = a;
