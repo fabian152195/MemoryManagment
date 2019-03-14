@@ -36,7 +36,7 @@ void* node::operator new(size_t size) {
 void node::operator delete(void * p)
 {
     Collector::getInstance()->ReciclarNodo((node*) p);
-    cout<< "\nNodo " << static_cast<void*>(p) << " eliminado de lista y agregado a Colector\n" << endl;
+    cout<< "\nNodo " << static_cast<void*>(p) << " eliminado de lista y agregado a Collector\n" << endl;
 }
 
 void node::set_Siguiente(node *a) {

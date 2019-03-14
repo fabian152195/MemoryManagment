@@ -28,6 +28,7 @@ void List::insert_inicio(int a) {
         nuevo_nodo->set_Siguiente(first);
         first = nuevo_nodo;
     }
+    this->visualizar();
 }
 /**
  * Permite visualizar el contenido de la lista
@@ -35,7 +36,7 @@ void List::insert_inicio(int a) {
 void List::visualizar() {
     node *aux = first;
     if (this->first == nullptr){
-        cout << "\nLa lista esta vacia\n";
+        cout << "\n------------------\nLa lista esta vacia\n------------------" << endl;
     }else{
         cout << "\nLa lista corresponde a:\n------------------" << endl;
         while(aux!= nullptr) {
@@ -69,4 +70,5 @@ void List::eliminar_nodofinal() {
             aux->set_Siguiente(nullptr);
         }
     }
+    this->visualizar();
 }

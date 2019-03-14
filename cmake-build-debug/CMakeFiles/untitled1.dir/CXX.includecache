@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/malavassi/Escritorio/MemoryManagment/Collector.cpp
-Collector.h
-/home/malavassi/Escritorio/MemoryManagment/Collector.h
-
-/home/malavassi/Escritorio/MemoryManagment/Collector.h
-List.h
-/home/malavassi/Escritorio/MemoryManagment/List.h
-node.h
-/home/malavassi/Escritorio/MemoryManagment/node.h
-
 /home/malavassi/Escritorio/MemoryManagment/List.cpp
 iostream
 -
@@ -27,20 +17,6 @@ node.h
 /home/malavassi/Escritorio/MemoryManagment/List.h
 node.h
 /home/malavassi/Escritorio/MemoryManagment/node.h
-
-/home/malavassi/Escritorio/MemoryManagment/main.cpp
-iostream
--
-List.h
-/home/malavassi/Escritorio/MemoryManagment/List.h
-
-/home/malavassi/Escritorio/MemoryManagment/node.cpp
-iostream
--
-node.h
-/home/malavassi/Escritorio/MemoryManagment/node.h
-Collector.h
-/home/malavassi/Escritorio/MemoryManagment/Collector.h
 
 /home/malavassi/Escritorio/MemoryManagment/node.h
 iostream
